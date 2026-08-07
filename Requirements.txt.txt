@@ -1,0 +1,24 @@
+pyTelegramBotAPI
+pandas
+openpyxl
+
+LER ESTA PORRA
+# Bot de Gastos no Telegram com Excel
+
+Este projeto permite que você crie o seu próprio bot de finanças que salva gastos direto em uma planilha.
+
+## Como usar no seu computador:
+
+1. Baixe os arquivos deste repositório.
+2. Instale as bibliotecas necessárias:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Crie um Bot no Telegram com o `@BotFather` e copie o Token.
+4. Configure o seu Token no seu terminal/sistema:
+   - No Windows (Prompt de Comando): `set TELEGRAM_BOT_TOKEN=seu_token_aqui`
+   - No Linux/Mac: `export TELEGRAM_BOT_TOKEN="seu_token_aqui"`
+5. Rode o bot:
+   ```bash
+   python bot_gastos.py
+   ```
