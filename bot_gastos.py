@@ -4,7 +4,7 @@ import telebot
 import pandas as pd
 
 # Cole aqui o Token que você recebeu do @BotFather
-TOKEN = "8713440945:AAGv2xYD-EHBCxJHxMkj8R5eNqvzoDPhXTw"
+TOKEN = os.environ.get("TELEGRAM_TOKEN")
 bot = telebot.TeleBot(TOKEN)
 
 NOME_ARQUIVO = "planilha_gastos.xlsx"
