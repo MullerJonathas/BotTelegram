@@ -2,7 +2,7 @@ pyTelegramBotAPI
 pandas
 openpyxl
 
-LER ESTA PORRA
+Preste atenção 
 # Bot de Gastos no Telegram com Excel
 
 Este projeto permite que você crie o seu próprio bot de finanças que salva gastos direto em uma planilha.
